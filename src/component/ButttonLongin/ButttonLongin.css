@@ -1,0 +1,31 @@
+.button-longin {
+    /* background: #1cb821; */
+    border-radius: 10px;
+    color: #fff;
+    flex: 1;
+    /* text-align: center; */
+    padding: 5px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.text {
+    color: #000;
+    flex: 1;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.center {
+    width: 30%;
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.disabled {
+    background: #aaa;
+}

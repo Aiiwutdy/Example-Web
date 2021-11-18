@@ -1,0 +1,40 @@
+.button {
+    background: #ffc107;
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.button:hover{
+    background-color: #e7b213;
+}
+
+.text {
+    color: #fff;
+    flex: 1;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.center {
+    width: 30%;
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.disabled {
+    background: #aaa;
+}
+
+

@@ -1,0 +1,63 @@
+/* @media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+} */
+.d-flex {
+  display: flex !important;
+}
+
+* {
+  outline: none;
+}
+
+.container-fluid {
+  padding: 0px;
+  min-height: 100vh;
+  /* max-width: none; */
+  padding: 20px;
+  position: relative;
+  justify-content: center !important;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.bg-1 {
+  background-image: url("../../img/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.login-input {
+  display: flex;
+  justify-content: center;
+
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.custom-select {
+  background: #ffffff;
+  border: 0.5px solid #000000;
+  border-radius: 10px;
+}
