@@ -13,6 +13,7 @@ export default function Login() {
   const toLogin = () => history.push("/");
 
   const [username, setUsername] = useState("");
+  const [confrim, setConfrim] = useState("");
   const [password, setPassword] = useState("");
 
   const onLogin = async () => {
